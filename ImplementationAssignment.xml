@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ImplementationAssignment</name>
+    </assembly>
+    <members>
+        <member name="M:ImplementationAssignment.Controllers.RevenueController.GetTotalRevenuePerDays">
+            <summary>
+            Get total revenue per days
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ImplementationAssignment.Controllers.RevenueController.GetTotalRevenuePerDay(System.String)">
+            <summary>
+            Get total revenue per day
+            </summary>
+            <param name="day">Day in a week from which we want to see the revenue</param>
+            <returns></returns>
+        </member>
+        <member name="M:ImplementationAssignment.Controllers.RevenueController.GetRevenueGroupedByArticle">
+            <summary>
+            Get revenue grouped by article
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ImplementationAssignment.Controllers.SaleDataController.GetSaleDataById(System.Guid)">
+            <summary>
+            Get sale data by Id
+            </summary>
+            <param name="saleDataId">Id of the sale data we want</param>
+            <returns></returns>
+        </member>
+        <member name="M:ImplementationAssignment.Controllers.SaleDataController.CreateSaleData(ImplementationAssignment.Models.DTO.SaleDataDTO)">
+            <summary>
+            Create sale data
+            </summary>
+            <param name="saleDataDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ImplementationAssignment.Controllers.SaleDataController.GetNumberOfSoldArticlesPerDays">
+            <summary>
+            Get number of sold articles per days
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ImplementationAssignment.Controllers.SaleDataController.GetNumberOfSoldArticlesPerDay(System.String)">
+            <summary>
+            Get number of sold articles per day
+            </summary>
+            <param name="day">Day in a week from which we want to see number of sold articles</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
